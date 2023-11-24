@@ -64,3 +64,33 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### instalacion 
+https://bluuweb.github.io/tutorial-laravel/#instalacion
+node js + php + composer 
+
+### crear proyecto 
+de manera global 
+composer global require laravel/installer
+ 
+laravel new example-app
+
+### ejecutar proyecto
+php artisan serve
+
+### archivo de entrada es 
+routes / web.php
+
+### para instalar breze
+composer require laravel/breeze --dev // se instala en el ambiente de desarrollo 
+para implementar autenticacion de manera automatica
+
+### luego instalo breeze
+
+php artisan breeze:install
+
+
+### para instalar paquete de lenguajes 
+composer require laravel-lang/common --dev
+
+### instalar paquete 
+php artisan lang:add es // es por español
